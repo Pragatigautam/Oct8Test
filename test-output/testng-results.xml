@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-08T21:42:40 GMT-05:00" name="Suite" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="79">
+    <groups>
+      <group name="regression">
+        <method signature="Oct8Test2.testCase2()[pri:0, instance:Test.Oct8Test2@428640fa]" name="testCase2" class="Test.Oct8Test2"/>
+        <method signature="Oct8Test3.testCase5()[pri:0, instance:Test.Oct8Test3@3f6f6701]" name="testCase5" class="Test.Oct8Test3"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Oct8Test2.testCase1()[pri:0, instance:Test.Oct8Test2@428640fa]" name="testCase1" class="Test.Oct8Test2"/>
+        <method signature="Oct8Test2.testCase2()[pri:0, instance:Test.Oct8Test2@428640fa]" name="testCase2" class="Test.Oct8Test2"/>
+        <method signature="Oct8Test2.testCase3()[pri:0, instance:Test.Oct8Test2@428640fa]" name="testCase3" class="Test.Oct8Test2"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="Oct8Test3.testCase4()[pri:0, instance:Test.Oct8Test3@3f6f6701]" name="testCase4" class="Test.Oct8Test3"/>
+        <method signature="Oct8Test3.testCase6()[pri:0, instance:Test.Oct8Test3@3f6f6701]" name="testCase6" class="Test.Oct8Test3"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2023-10-08T21:42:40 GMT-05:00" name="Test" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="79">
+      <class name="Test.Oct8Test2">
+        <test-method signature="testCase1()[pri:0, instance:Test.Oct8Test2@428640fa]" started-at="2023-10-08T21:42:40 GMT-05:00" name="testCase1" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:Test.Oct8Test2@428640fa]" started-at="2023-10-08T21:42:40 GMT-05:00" name="testCase2" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:Test.Oct8Test2@428640fa]" started-at="2023-10-08T21:42:40 GMT-05:00" name="testCase3" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- Test.Oct8Test2 -->
+      <class name="Test.Oct8Test3">
+        <test-method signature="testCase4()[pri:0, instance:Test.Oct8Test3@3f6f6701]" started-at="2023-10-08T21:42:40 GMT-05:00" name="testCase4" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase5()[pri:0, instance:Test.Oct8Test3@3f6f6701]" started-at="2023-10-08T21:42:40 GMT-05:00" name="testCase5" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method signature="testCase6()[pri:0, instance:Test.Oct8Test3@3f6f6701]" started-at="2023-10-08T21:42:40 GMT-05:00" name="testCase6" finished-at="2023-10-08T21:42:40 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+      </class> <!-- Test.Oct8Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
